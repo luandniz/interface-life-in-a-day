@@ -1,4 +1,11 @@
-import { Title, Container, Content, TextContent, Datas } from "./styles";
+import {
+  Title,
+  Container,
+  Content,
+  TextContent,
+  Datas,
+  Box_video,
+} from "./styles";
 
 export const Main = () => {
   return (
@@ -24,16 +31,14 @@ export const Main = () => {
 
         <div>
           <Title>DISPONÍVEL AGORA</Title>
-          <iframe
+          <Box_video
             frameborder="0"
             allowfullscreen="1"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             title="YouTube video player"
-            width="950"
-            height="550"
             src="https://www.youtube.com/embed/vcsSc2iksC0?cc_load_policy=1&amp;enablejsapi=1&amp;modestbranding=1&amp;rel=0&amp;origin=https%3A%2F%2Flifeinaday.youtube&amp;widgetid=1"
             id="widget2"
-          ></iframe>
+          ></Box_video>
 
           <section></section>
         </div>

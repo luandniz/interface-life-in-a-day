@@ -40,9 +40,11 @@ button{
 body{
   /* cores do body */
   max-width: 1440px;
+
   width: 100vw;
   hight: 100vh;
- 
+  
+  overflow-x: hidden;
  
 }
 

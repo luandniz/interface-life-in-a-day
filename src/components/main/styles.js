@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+export const Box_video = styled.iframe`
+  width: 970px;
+  height: 550px;
+  border: none;
+`;
+
 export const Container = styled.main`
   width: 100vw;
   display: flex;
@@ -14,7 +20,6 @@ export const Content = styled.div`
   align-items: center;
   width: 60%;
 `;
-
 export const TextContent = styled.div`
   width: 85%;
   display: flex;
