@@ -14,12 +14,28 @@ export const Container = styled.div`
   }
 `;
 export const Content = styled.div`
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+
   img {
-    margin: 10px;
+    width: 100%;
+  }
+
+  @media (min-width: 425px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 90%;
+  }
+
+  @media (min-width: 835px) {
+    width: 70%;
+  }
+
+  @media (min-width: 1000px) {
+    width: 50%;
   }
 `;
