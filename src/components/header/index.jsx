@@ -1,4 +1,3 @@
-// import sobreposicao from "../../assets/sobreposicao.png";
 import "./styles.css";
 
 export const Header = () => {

@@ -23,11 +23,12 @@ export const Content = styled.div`
 
   img {
     width: 100%;
+    cursor: pointer;
   }
 
   @media (min-width: 425px) {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     width: 90%;
   }
 

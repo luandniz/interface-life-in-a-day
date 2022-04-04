@@ -34,13 +34,15 @@ button{
   /* variáveis de cores */
   --main-color: #0f0f14;
   --light-gray: #ceccca;
+  
+ 
 
 }
 
 body{
   /* cores do body */
-  max-width: 1440px;
-
+  min-width: 320px;
+  
   width: 100vw;
   hight: 100vh;
   
@@ -50,6 +52,7 @@ body{
 
 body, input, button{
   /* font-family e fontsize */
+  
 }
 
 p{
