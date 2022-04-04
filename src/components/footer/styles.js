@@ -5,7 +5,7 @@ export const Container = styled.footer`
   align-items: center;
   justify-content: center;
   height: 90px;
-  width: 100vw;
+  // width: 100vw;
   margin-top: 50px;
   background-color: #212121;
 `;

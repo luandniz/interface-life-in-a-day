@@ -6,13 +6,13 @@ export const Footer = () => {
     <Container>
       <Content>
         <a href="https://www.linkedin.com/in/luan-dniz/">
-          <AiFillLinkedin size={30} />
+          <AiFillLinkedin size={30} title="Linkedin" />
         </a>
         <a href="https://github.com/luandniz">
-          <AiFillGithub size={30} />
+          <AiFillGithub size={30} title="Github" />
         </a>
         <a href="https://lifeinaday.youtube/">
-          <AiFillYoutube size={30} />
+          <AiFillYoutube size={30} title="Site Original" />
         </a>
       </Content>
     </Container>

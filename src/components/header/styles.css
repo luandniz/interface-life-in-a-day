@@ -12,9 +12,9 @@
   background-image: url("https://lh3.googleusercontent.com/g3OgqkwMvr7dpd_JC0i2BuseK0uojZs7JCaqeF0Pj1G7tas2MKAlF7I3G4DC761vVeQAiTJFQMomKgcaAZ2iN6nl_JBpuPWSvxkbRQ=w2298-l80-sg-rj-c0xffffff");
   animation: right 100s linear infinite;
   height: 100%;
+  width: 100%;
   background-repeat: repeat-x;
   position: absolute;
-  width: 100%;
   z-index: 1;
 }
 

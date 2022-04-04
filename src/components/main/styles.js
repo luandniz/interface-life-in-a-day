@@ -16,8 +16,8 @@ export const Box_video = styled.iframe`
   }
 
   @media (max-width: 425px) {
-    width: 300px;
-    height: 180px;
+    width: 295px;
+    height: 170px;
   }
 `;
 

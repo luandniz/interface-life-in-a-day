@@ -34,19 +34,17 @@ button{
   /* variáveis de cores */
   --main-color: #0f0f14;
   --light-gray: #ceccca;
-  
- 
-
+  overflow-x: hidden;
 }
 
 body{
   /* cores do body */
   min-width: 320px;
-  
   width: 100vw;
   hight: 100vh;
-  
   overflow-x: hidden;
+  
+ 
  
 }
 

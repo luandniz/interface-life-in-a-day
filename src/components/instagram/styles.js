@@ -11,6 +11,7 @@ export const Container = styled.div`
     font-size: 44px;
     text-transform: uppercase;
     font-weight: 300;
+    margin-bottom: 15px;
   }
 `;
 export const Content = styled.div`
