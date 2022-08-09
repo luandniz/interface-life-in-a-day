@@ -34,6 +34,7 @@ button{
   /* variáveis de cores */
   --main-color: #0f0f14;
   --light-gray: #ceccca;
+  --white: #ffffff;
   overflow-x: hidden;
 }
 
@@ -57,11 +58,13 @@ p{
   font-family: 'Roboto', sans-serif;
   color: var(--light-gray);
 }
-
+p{
+  color: var(--white);
+}
 h1, h2, h3, h4{
   /* font-family */
   font-family: 'Bebas Neue', cursive;
-  color: var(--light-gray);
+  color: var(--white);
 }
 
 a{

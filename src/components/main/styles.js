@@ -51,11 +51,16 @@ export const TextContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px 0 20px 0;
+  padding: 40px 0 40px 0;
+  width: 80%;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
 
   p {
-    font-size: 19px;
-    line-height: 29px;
+    font-size: 16px;
+    line-height: 25px;
     padding-bottom: 16px;
   }
 `;
